@@ -55,7 +55,7 @@ This DAG performs the following steps every hour:
 
 ---
 
-### 📦 `daily_redshift_load` (Runs **Daily at 11:30 PM UTC**)
+### 📦 `daily_redshift_load` (Runs **Daily at 11:30 PM IST**)
 
 This DAG performs the following:
 
