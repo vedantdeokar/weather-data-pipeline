@@ -118,7 +118,7 @@ Follow these steps to configure the EC2 environment and run Apache Airflow with 
 
 ### 📦 Step 1: System Setup & Python Environment
 
-```bash```
+```
 sudo apt update
 sudo apt install -y python3.10 python3.10-venv
 python3.10 -m venv airflow_venv
@@ -128,6 +128,7 @@ pip install "apache-airflow==2.8.2" \
             "apache-airflow-providers-postgres==5.10.1" \
             --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.8.2/constraints-3.10.txt"
 pip install pandas requests
+```
 
 
 ---
